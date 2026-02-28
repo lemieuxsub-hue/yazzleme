@@ -316,6 +316,15 @@ nav {
   100% { transform: translateX(-50%); }
 }
 
+.kindness-marquee-reverse {
+  animation: scroll-reverse 20s linear infinite;
+}
+
+@keyframes scroll-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
 /* ===== FEATURED COLLECTION ===== */
 .section {
   padding: 100px 50px;
@@ -489,6 +498,7 @@ nav {
 .about-images img:hover { transform: scale(1.03); }
 
 .about-images img:first-child {
+  grid-column: 1 / -1;
   height: 300px;
   object-position: top;
 }
