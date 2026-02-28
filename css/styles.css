@@ -481,7 +481,7 @@ nav {
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
-  height: 250px;
+  height: 300px;
   transition: transform 0.3s;
   object-position: top;
 }
@@ -489,7 +489,6 @@ nav {
 .about-images img:hover { transform: scale(1.03); }
 
 .about-images img:first-child {
-  grid-column: 1 / -1;
   height: 300px;
   object-position: top;
 }
