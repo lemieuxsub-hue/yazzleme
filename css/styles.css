@@ -490,6 +490,7 @@ nav {
 .about-images img:first-child {
   grid-column: 1 / -1;
   height: 300px;
+  object-position: top;
 }
 
 .about-text h2 {
